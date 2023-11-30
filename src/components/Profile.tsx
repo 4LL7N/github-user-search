@@ -107,9 +107,9 @@ function Profile(props: { theme: boolean; userInfo: userObj | undefined }) {
                 src={
                   props.userInfo?.loaction
                     ? props.theme
-                      ? "./src/images/location-dark.svg"
-                      : "./src/images/icon-location.svg"
-                    : "./src/images/location-unavailable.svg"
+                      ? "./images/location-dark.svg"
+                      : "./images/icon-location.svg"
+                    : "./images/location-unavailable.svg"
                 }
               />
               <p
@@ -132,9 +132,9 @@ function Profile(props: { theme: boolean; userInfo: userObj | undefined }) {
                 src={
                   props.userInfo?.blog
                     ? props.theme
-                      ? "./src/images/website-dark.svg"
-                      : "./src/images/icon-website.svg"
-                    : "./src/images/website-unavailable.svg"
+                      ? "./images/website-dark.svg"
+                      : "./images/icon-website.svg"
+                    : "./images/website-unavailable.svg"
                 }
               />
               <p
@@ -157,9 +157,9 @@ function Profile(props: { theme: boolean; userInfo: userObj | undefined }) {
                 src={
                   props.userInfo?.twitter
                     ? props.theme
-                      ? "./src/images/twitter-dark.svg"
-                      : "./src/images/twitter-light.svg"
-                    : "./src/images/twitter-unavailable.svg"
+                      ? "./images/twitter-dark.svg"
+                      : "./images/twitter-light.svg"
+                    : "./images/twitter-unavailable.svg"
                 }
               />
               <p
@@ -182,9 +182,9 @@ function Profile(props: { theme: boolean; userInfo: userObj | undefined }) {
                 src={
                   props.userInfo?.company
                     ? props.theme
-                      ? "./src/images/company-dark.svg"
-                      : "./src/images/icon-company.svg"
-                    : "./src/images/company-unavailale.svg"
+                      ? "./images/company-dark.svg"
+                      : "./images/icon-company.svg"
+                    : "./images/company-unavailale.svg"
                 }
               />
               <p

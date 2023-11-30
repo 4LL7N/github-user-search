@@ -14,7 +14,7 @@ function Input(props: {
       >
         <img
           className="h-[20px] w-[20px] md:h-[24px] md:w-[24px]"
-          src="./src/images/icon-search.svg"
+          src="./images/icon-search.svg"
         />
         <input
           className={`appearance-none	h-[25px] ${

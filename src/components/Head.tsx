@@ -23,8 +23,8 @@ function Head(props: { theme: boolean; setTheme: (theme: boolean) => void }) {
           <img
             src={
               props.theme
-                ? "./src/images/icon-sun.svg"
-                : "./src/images/icon-moon.svg"
+                ? "./images/icon-sun.svg"
+                : "./images/icon-moon.svg"
             }
           />
         </div>
