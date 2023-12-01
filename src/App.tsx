@@ -32,6 +32,7 @@ function App() {
       const request = await axios(`https://api.github.com/users/${user}`);
       const userData = request.data;
       setUserInfo(userData);
+      setError(false)
     } catch (error) {
       setError(true);
     }
